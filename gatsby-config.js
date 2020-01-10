@@ -4,10 +4,7 @@ const siteMetadata = {
   };
 
 module.exports = {
-    siteMetadata: {
-        title: `MDX Starter Blog`,
-        description: `This is a simple blog.`,
-      },
+    siteMetadata: siteMetadata,
     plugins: [
       {
         resolve: `gatsby-plugin-mdx`,
