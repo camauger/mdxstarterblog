@@ -1,0 +1,19 @@
+{
+  "name": "mdxstarter",
+  "version": "1.0.0",
+  "description": "MDX Starter Blog with Gatsby",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.6.2",
+    "gatsby": "^2.18.21",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "dev": "gatsby develop -p 9988 -o"
+}
