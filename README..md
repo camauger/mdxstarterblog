@@ -7,3 +7,5 @@ Upgrade to core-js@3
 
 To check if your packages are outdated.
 > npm outdated
+
+Using [react-seo-component](https://www.npmjs.com/package/react-seo-component)

@@ -4,7 +4,7 @@ import React from 'react';
 const Dump = props => (
   <div
     style={{
-      fontSize: 20,
+      fontSize: 18,
       border: '1px solid #efefef',
       padding: 10,
       background: 'white',
