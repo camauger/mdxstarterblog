@@ -2,9 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { useSiteMetadata } from "../hooks/useSiteMetadata";
 import { Header } from "./Header";
-
-
-const AppStyles = styled.main`
+import "../../node_modules/normalize.css/normalize.css"
+const Main = styled.main`
   width: 800px;
   margin: 0 auto;
 `;
@@ -12,11 +11,10 @@ const AppStyles = styled.main`
 export const Layout = ({ children }) => {
   const { title, description } = useSiteMetadata();
   return (
-    <AppStyles>
-     
+    <>
       <Header siteTitle={title} siteDescription={description} />
 
-      {children}
-    </AppStyles>
+      <Main>{children}</Main>
+    </>
   );
 };

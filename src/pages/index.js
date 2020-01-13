@@ -7,6 +7,7 @@ import { Layout } from "../components/Layout";
 import { useSiteMetadata } from "../hooks/useSiteMetadata";
 // import Dump from "../components/Dump";
 
+
 const IndexWrapper = styled.main``;
 
 const PostWrapper = styled.div``;
